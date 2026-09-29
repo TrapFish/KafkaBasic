@@ -1,0 +1,12 @@
+{
+  "name": "kafka-orders",
+  "version": "1.0.0",
+  "description": "Tiny Kafka producer/consumer demo",
+  "scripts": {
+    "producer": "node producer.js",
+    "consumer": "node consumer.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
